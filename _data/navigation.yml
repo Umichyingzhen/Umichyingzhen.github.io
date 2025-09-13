@@ -18,4 +18,4 @@ main:
     url: /cv/
     
   - title: "中文"
-    url: /zw/ # 需要新建一个repo名为zw
+    url: /zw/
