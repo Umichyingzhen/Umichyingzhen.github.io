@@ -32,6 +32,17 @@ date: 2024-11-15
 
 ---
 
-### 📎 Full Package
+### 📎 Installation
 
-👉 [[MLST Package]](https://github.com/Umichyingzhen/MLST)
+👉 [[MLST Package GitHub]](https://github.com/Umichyingzhen/MLST)
+
+👉 # 1) Install remotes (if not already installed)
+         install.packages("remotes")
+
+
+    # 2) Install the MLST package
+         remotes::install_github("Umichyingzhen/MLST")
+
+    # 3) Load and quickly verify
+         library(MLST)
+
