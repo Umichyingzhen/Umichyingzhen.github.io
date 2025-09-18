@@ -1,35 +1,46 @@
 ---
 title: "MLST: Statistical Analysis and Regression Tools in R"
-excerpt: "R package for obtaining statistical results from linear regression models, including residual standard error, R-squared, adjusted R-squared, F-tests, and T-tests."
+excerpt: "Developed an R package to compute regression statistics and test results including Residual Standard Error, R-squared, Adjusted R-squared, F-test, and T-test."
 collection: portfolio
-date: 2025-09-17
+date: 2024-11-15
 ---
-
-This is an R package project developed by Yingzhen Wang.  
-GitHub repository: [Umichyingzhen/MLST](https://github.com/Umichyingzhen/MLST)
 
 ---
 
-### 📦 Package Features
+### 📦 Project Summary
 
-- **Residual Standard Error (RSE)**: Compute the residual standard error for linear regression models.  
-- **R-Squared (\(R^2\))**: Calculate the coefficient of determination to assess model fit.  
-- **Adjusted R-Squared**: Evaluate the adjusted \(R^2\), accounting for the number of predictors in the model.  
-- **F-test**: Evaluate the overall significance of a multiple linear model, including F-statistic, p-value, and degrees of freedom.  
-- **T-test**: Evaluate the significance of individual predictors, including estimate, standard error, t-statistic, and p-value.  
+- **Objective**: Provide statistical tools for linear regression analysis in R through a user-friendly package.  
+- **Key Functions**: Residual Standard Error, \(R^2\), Adjusted \(R^2\), F-test, T-test.  
+- **Implementation**: Built in R with functions that directly take response and predictor matrices with a data frame.  
+- **Main Finding**: Functions reproduce regression statistics consistent with `lm()` output, providing lightweight alternatives with simplified inputs.
 
 ---
 
-### ⚙️ Installation
+### 📈 Usage Example
 
-```r
-# Install remotes if not already installed
-install.packages("remotes")
+<img src="/files/MLST_Usage.png" alt="Usage example of MLST functions in R" style="width:100%;"/>
 
-# Authorization of package from GitHub (replace "auth_token" with your token)
-Sys.getenv("GITHUB_PAT")
-Sys.setenv(GITHUB_PAT = "auth_token")
-nchar(remotes:::github_pat())
+> - Demonstrates running all five functions on a simulated dataset with predictors \(X_1, X_2\) and response `normal`.  
+> - Outputs include RSE, \(R^2\), adjusted \(R^2\), F-test table (F-statistic, p-value, df1, df2), and T-test matrix (estimate, SE, t, p).  
+> - Results are consistent with base R regression output, validating correctness of the package implementation.  
 
-# Install MLST from GitHub
-remotes::install_github("Umichyingzhen/MLST")
+---
+
+### 📋 Table Results
+
+| Function | Output Type | Key Values Returned |
+|----------|-------------|---------------------|
+| RSE      | Numeric     | Residual Standard Error |
+| Rsquared | Numeric     | \(R^2\) value |
+| ADJRS    | Numeric     | Adjusted \(R^2\) |
+| Ftest    | Data frame  | F-statistic, p-value, df1, df2 |
+| Ttest    | Matrix      | Estimate, SE, t-value, p-value |
+
+> - Each function provides focused outputs instead of the full regression summary.  
+> - The separation of tasks allows flexible and modular use of regression statistics in analysis workflows.  
+
+---
+
+### 📎 Full Package
+
+👉 [[MLST Package]](https://github.com/Umichyingzhen/MLST)
