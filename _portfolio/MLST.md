@@ -16,15 +16,6 @@ date: 2024-11-15
 
 ---
 
-### 📈 Usage Example
-
-<img src="/files/MLST_Usage.png" alt="Usage example of MLST functions in R" style="width:100%;"/>
-
-> - Demonstrates running all five functions on a simulated dataset with predictors \(X_1, X_2\) and response `normal`.  
-> - Outputs include RSE, \(R^2\), adjusted \(R^2\), F-test table (F-statistic, p-value, df1, df2), and T-test matrix (estimate, SE, t, p).  
-> - Results are consistent with base R regression output, validating correctness of the package implementation.  
-
----
 
 ### 📋 Table Results
 
