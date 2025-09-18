@@ -67,7 +67,7 @@ _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2
 - Applied Bayesian modeling frameworks to real and simulated datasets, generating reproducible analyses and visualizations that supported model validation and interpretation
 
 **Data Analyst Intern**  
-_China Everbright Bank, Changchun Branch_ — Changchun, China (September 2019 - November 2019)
+_China Everbright Bank, Changchun Branch_ — Changchun, China (Sep 2019 - Nov 2019)
 - Collected and processed over 500 monthly economic indicators of Jilin Province and the whole country using SQL, automating data extraction, cleaning, and aggregation, which reduced manual processing time by 40% and enabled timely analysis of GDP drivers from fiscal and monetary policy perspectives
 - Analyzed client transaction and portfolio data to identify risk profiles, recommended 3 customized wealth management products, which increased client product adoption by 15% and improved alignment with client investment needs  
 - Employed Python to fit generalized and linear regression models on 2,000+ customer records, which improved prediction accuracy of satisfaction and deposit trends by 12%, supporting data-driven decision-making in customer service strategies
