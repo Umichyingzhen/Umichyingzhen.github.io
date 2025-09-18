@@ -36,14 +36,13 @@ date: 2024-11-15
 
 👉 [[MLST Package GitHub]](https://github.com/Umichyingzhen/MLST)
 
-👉 
-    ```r
-# 1) Install remotes (if not already installed)
-install.packages("remotes")
+👉 Install in R Remotely
+    # 1) Install remotes (if not already installed)
+         install.packages("remotes")
 
-# 2) Install the MLST package
-remotes::install_github("Umichyingzhen/MLST")
+    # 2) Install the MLST package
+         remotes::install_github("Umichyingzhen/MLST")
 
-# 3) Load and quickly verify
-library(MLST)
+    # 3) Load and quickly verify
+         library(MLST)
 
