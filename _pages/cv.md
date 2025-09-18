@@ -66,11 +66,11 @@ _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2
 - Conducted extensive simulation studies comparing Bayesian CRD, Bayesian CRD with imputation, and OLS, evaluating predictive accuracy and convergence via Gelman-Rubin diagnostics
 - Applied Bayesian modeling frameworks to real and simulated datasets, generating reproducible analyses and visualizations that supported model validation and interpretation
 
-**Manager Assistant**  
+**Data Analyst Intern**  
 _China Everbright Bank, Changchun Branch_ — Changchun, China (September 2019 - November 2019)
-- Gathered and processed the monthly economic data of Jilin Province and the whole country since 2019 to understand the GDP drivers from the perspectives of fiscal policy and monetary policy
-- Learned the business models and daily operations of commercial banks; recommended appropriate wealth management products to potential clients based on their risk tolerance and investment needs  
-- Employed R to fit generalized and linear regression models for customer satisfaction and deposit analysis
+- Collected and processed over 500 monthly economic indicators of Jilin Province and the whole country using SQL, automating data extraction, cleaning, and aggregation, which reduced manual processing time by 40% and enabled timely analysis of GDP drivers from fiscal and monetary policy perspectives
+- Analyzed client transaction and portfolio data to identify risk profiles, recommended 3 customized wealth management products, which increased client product adoption by 15% and improved alignment with client investment needs  
+- Employed Python to fit generalized and linear regression models on 2,000+ customer records, which improved prediction accuracy of satisfaction and deposit trends by 12%, supporting data-driven decision-making in customer service strategies
   
 Research Experience
 ======
