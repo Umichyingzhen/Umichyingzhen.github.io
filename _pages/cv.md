@@ -60,7 +60,7 @@ _Department of Computational Medicine & Bioinformatics at University of Michigan
 - Built reproducible workflows on Great Lakes HPC with R&Python environments, executing Slurm jobs for the 3000*30000 expression matrix through VS Code
 
 **Graduate Research Assistant**  
-_Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Sep 2025)
+_Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Present)
 - Designed and implemented elliptical slice sampling algorithms in R for Bayesian parameter estimation, improving efficiency in posterior inference
 - Developed and validated a Multivariate Bayesian Shrinkage Prior (Mt-MBSP) model supporting mixed-type outcomes (continuous, binary, count) with Gibbs sampling  
 - Conducted extensive simulation studies comparing Bayesian CRD, Bayesian CRD with imputation, and OLS, evaluating predictive accuracy and convergence via Gelman-Rubin diagnostics
