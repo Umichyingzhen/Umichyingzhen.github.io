@@ -88,7 +88,7 @@ _Summer Research Seminar, Supervisor: R. Todd Ogden, Columbia University_ — Re
 - Evaluated models using confusion matrix and AUC-ROC metrics, showing that the optimized random forest achieved 82.1% accuracy, 83.1% sensitivity, 80.9% specificity, and an AUC of 0.82, outperforming logistic regression (67.1% accuracy, AUC 0.737) by 15% in accuracy and 0.083 in AUC for high-dimensional CHD data classification
 
 **Familial Influences on Radiation Effects in Mice**  
-_NASA Human Research Program, Weil Lab, Colorado State University_ — Fort Collins, CO (May 2022 – August 2022)
+_NASA Human Research Program, Weil Lab, Colorado State University_ — Fort Collins, CO (May 2022 – Aug 2022)
 - Designed and fitted a generalized linear mixed model on a dataset of 1,200+ mice to analyze the relationship between Modified Merriam-Focht classification and radiation groups, improving model fit by 32% compared to baseline models
 - Detected statistically significant differences in radiation effects between γ-rays and HZE nuclei using emmeans command, quantifying radiation-induced ocular damage with odds ratios up to 2.3  
 - Conducted regression analysis in R showing that exposure to gamma rays increased the odds of vision impairment by 47%, providing evidence for dose-response effects in familial radiation sensitivity
