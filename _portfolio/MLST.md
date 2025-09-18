@@ -10,7 +10,7 @@ date: 2024-11-15
 ### 📦 Project Summary
 
 - **Objective**: Provide statistical tools for linear regression analysis in R through a user-friendly package.  
-- **Key Functions**: Residual Standard Error, \(R^2\), Adjusted \(R^2\), F-test, T-test.  
+- **Key Functions**: Residual Standard Error, `R^2`, Adjusted `R^2`, F-test, T-test.  
 - **Implementation**: Built in R with functions that directly take response and predictor matrices with a data frame.  
 - **Main Finding**: Functions reproduce regression statistics consistent with `lm()` output, providing lightweight alternatives with simplified inputs.
 
