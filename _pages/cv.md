@@ -77,9 +77,9 @@ Research Experience
 
 **Research on Pneumonia Patient Condition Classification Using Diffusion Models and CLIP**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Nov 2024 - Dec 2024)
-- Deployed the stable Diffusion model and utilized LoRA to fine-tune the model to make the model generate customized chest X-ray images
-- Utilized the fine-tuned contrastive language-image pre-training (CLIP) model to achieve modest improvements in training accuracy and classify the test dataset  
-- Publish the whole research on GitHub https://github.com/xxm12345666/biostat625-group2-project.git
+- Deployed the stable Diffusion model and utilized Low-Rank Adaptation of Large Language Models (LoRA) to fine-tune the model to make it generate customized chest X-ray images based on a dataset of 5,856 radiographs
+- Utilized the fine-tuned contrastive language-image pre-training (CLIP) model to achieve modest improvements in training accuracy, and the training accuracy improved from 48.94% to 50.51%  
+- Collaborated with fellow analysts to process and analyze the graphical data with effective communication
 
 **Research on Predictive Algorithms for Cardiovascular Disease**  
 _Summer Research Seminar, Supervisor: R. Todd Ogden, Columbia University_ — Remote (May 2023 - July 2023)
