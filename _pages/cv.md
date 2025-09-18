@@ -83,10 +83,9 @@ _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Nov 2
 
 **Research on Predictive Algorithms for Cardiovascular Disease**  
 _Summer Research Seminar, Supervisor: R. Todd Ogden, Columbia University_ — Remote (May 2023 - July 2023)
-- Utilized Principal Component Analysis (PCA) to identify relevant predictors and reduce dimensionality in complex datasets, implemented backward stepwise elimination to refine model features and prevent overfitting
-- Developed random forest and logistic regression models to assess CHD risk factors and aid in early detection  
-- Evaluated model performances based on confusion matrix and AUC-ROC curve values
-- Validated that the random forest model outperformed other models in categorizing high-dimensional data
+- Utilized Principal Component Analysis (PCA) to identify relevant predictors and reduce dimensionality in a dataset with more than 4000 observations and 10 plus variables, implemented backward stepwise elimination to refine model features and prevent overfitting
+- Developed random forest and logistic regression models on a dataset of 4,239 participants and 16 predictors from the Framingham Heart Study to assess CHD risk factors and support early detection  
+- Evaluated models using confusion matrix and AUC-ROC metrics, showing that the optimized random forest achieved 82.1% accuracy, 83.1% sensitivity, 80.9% specificity, and an AUC of 0.82, outperforming logistic regression (67.1% accuracy, AUC 0.737) by 15% in accuracy and 0.083 in AUC for high-dimensional CHD data classification
 
 **Familial Influences on Radiation Effects in Mice**  
 _NASA Human Research Program, Weil Lab, Colorado State University_ — Fort Collins, CO (May 2022 – August 2022)
