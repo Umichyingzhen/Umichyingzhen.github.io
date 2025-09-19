@@ -95,6 +95,6 @@ _NASA Human Research Program, Weil Lab, Colorado State University_ — Fort Coll
 
 **Application of Nonlinear Programming to Heat Conduction Model**  
 _College of Science at Yanbian University_ — Yanji, China (August 2017 - October 2018)
-- Established a nonlinear programming model to determine optimal thickness of the second layer of the high temperature working clothes given predictors like work hours and environmental temperature
-- Obtained the function of temperature and material thickness based on Fourier heat law  
-- Introduced the simulated annealing algorithm to enhance optimization accuracy, considering convection and radiation factors
+- Established a nonlinear programming model to determine the optimal thickness (≈13 mm) of the second layer of high-temperature working clothes, given predictors like work hours and ambient temperature (65 °C), ensuring skin temperature ≤ 47 °C for 60 minutes
+- Derived the functional relationship between temperature and material thickness using Fourier’s heat conduction law, and validated that simulated annealing reduced model error to less than 0.5% compared with exhaustive search  
+- Implemented simulated annealing optimization, which improved solution efficiency by avoiding local optima, and confirmed cost-effective design by reducing unnecessary thickness by ~48% compared to the maximum tested thickness (25 mm)
