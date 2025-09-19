@@ -54,10 +54,9 @@ Work Expreience
 
 **Graduate Research Assistant**  
 _Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 2025)
-- Conducted spatial transcriptomics analysis on normal vs. Alzheimer’s mouse brains using spatial pattern and differential expression (SPADE) algorithm, identifying over 13,000 spatially variable genes with high sensitivity to local expression heterogeneity
-- Performed clustering and domain detection with the BASS package and integrated Seurat-based differential expression analysis to compare spatial domain-specific vs. localized gene expression  
-- Demonstrated that SPADE is good at detecting fine-scale localized differences, while Seurat capturing domain-level transcriptional changes, providing complementary insights into Alzheimer’s-related gene dysregulation
-- Built reproducible workflows on Great Lakes HPC with R&Python environments, executing Slurm jobs for the 3000*30000 expression matrix through VS Code
+- Conducted spatial transcriptomic analysis on normal vs. Alzheimer’s mouse brains, identifying 13,085 spatially variable genes with SPADE versus 11,812 with Seurat, showing 80.4% vs. 36.6% detection rates
+- Demonstrated complementary strengths: SPADE captured fine-scale localized differences (detecting 3,446 genes uniquely), while Seurat highlighted domain-level transcriptional changes with 2,173 unique detections  
+- Built reproducible workflows on Great Lakes HPC with R & Python, scaling to 30,000 × 3,000 expression matrices and reducing dimensionality by 40% for efficient Slurm-based execution
 
 **Graduate Research Assistant**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Present)
