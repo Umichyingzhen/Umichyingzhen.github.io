@@ -78,8 +78,14 @@ Research Experience
 **Research on Pneumonia Patient Condition Classification Using Diffusion Models and CLIP**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Nov 2024 - Dec 2024)
 - Deployed the stable Diffusion model and utilized Low-Rank Adaptation of Large Language Models (LoRA) to fine-tune the model to make it generate customized chest X-ray images based on a dataset of 5,856 radiographs
-- Utilized the fine-tuned contrastive language-image pre-training (CLIP) model to achieve modest improvements in training accuracy, and the training accuracy improved from 48.94% to 50.51%  
+- Utilized the fine-tuned contrastive language-image pre-training (CLIP) model to achieve modest improvements in training accuracy, and the training accuracy improved from 48.94% to 50.51% 
 - Collaborated with fellow analysts to process and analyze the graphical data with effective communication
+
+**MLST: Statistical Regression Analysis R Package**  
+_Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Oct 2024 - Nov 2024)
+- Independently developed a statistical analysis tool, integrating residual standard error, coefficient of determination `R²`, adjusted coefficient of determination `Adjusted R²`, `F-test`, `T-test`, and 5+ regression diagnostic functions, improving the efficiency of model evaluation for 100+ potential users
+- Validated various regression diagnostics and goodness-of-fit indices on simulated datasets of size `n=100`; results were highly consistent with built-in R functions, ensuring accuracy and reproducibility of the data analysis process 
+- Authored HTML vignette and Rd documentation to visually demonstrate model evaluation workflows, significantly reducing users’ learning costs and shortening onboarding time by approximately 50%
 
 **Research on Predictive Algorithms for Cardiovascular Disease**  
 _Summer Research Seminar, Supervisor: R. Todd Ogden, Columbia University_ — Remote (May 2023 - July 2023)
