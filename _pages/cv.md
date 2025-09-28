@@ -61,7 +61,7 @@ _Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 20
 
 **Graduate Research Assistant**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Present)
-- Designed and implemented elliptical slice sampling algorithms in R for Bayesian parameter estimation, improving computational efficiency in posterior inference by 36\% compared to sampling function
+- Designed and implemented elliptical slice sampling algorithms in R for Bayesian parameter estimation, improving computational efficiency in posterior inference by 36% compared to sampling function
 - Developed and validated a Multivariate Bayesian Shrinkage Prior (Mt-MBSP) model supporting mixed-type outcomes (continuous, binary, count) with Gibbs sampling  
 - Conducted extensive simulation studies comparing Bayesian CRD, Bayesian CRD with imputation, and OLS, evaluating predictive accuracy and convergence via Gelman-Rubin diagnostics
 - Applied Bayesian modeling frameworks to real and simulated datasets, generating reproducible analyses and visualizations that supported model validation and interpretation
