@@ -22,7 +22,7 @@ repository               : "Umichyingzhen/Umichiyingzhen.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Myself.jpg"
   name             : "Yingzhen Wang"
   pronouns         : "He/His"  
   bio              : "M.S. in Biostatistics at University of Michigan | M.A.S. in Statistical Science at Colorado State University | Enthusiast in computational statistics and data science"
