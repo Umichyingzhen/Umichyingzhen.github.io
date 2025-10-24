@@ -74,10 +74,10 @@ _China Everbright Bank, Changchun Branch_ — Changchun, China (Sep 2019 - Nov 2
 
 **Data Analyst (STATCOM Project)**
 _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
-- Analyzed 464 survey responses on transportation and relocation intentions, producing actionable insights to support mobility-focused senior community planning
-- Cleaned and standardized raw data in Python, constructing a 6-variable analytical dataset and visualizing missingness, response distributions, and transportation patterns across subgroups
-- Identified that 88% reported no driving difficulty, but respondents without vehicle access were 3–5 times more likely to face transportation barriers; also found 45% cited “eliminating outside maintenance” as the top relocation driver, revealing key mobility and aging-in-place challenges.
-- Built bar-chart and stacked-percentage dashboards to deliver findings, pinpointing transportation-related risk factors linked to relocation decisions and informing stakeholder planning.
+- Analyzed 464 survey responses focusing on transportation access and relocation intentions, supporting senior mobility planning; engineered a clean 6-variable dataset via Python by handling missingness (12%–40%), harmonizing categorical levels, and removing noise for downstream analysis
+- Quantified transportation conditions by developing percentage distributions, missing-rate diagnostics, and grouped comparisons, revealing that 88% reported no driving difficulty, while respondents without vehicle access were 3–5 times more likely to face mobility barriers, identifying transportation-vulnerable subpopulations
+- Assessed relocation motivations and found 38% would move only for health reasons, while 45% cited eliminating outside maintenance as the top driver, uncovering core push-factors linked to aging-in-place decisions and environmental burden (e.g., house upkeep, accessibility)
+- Built a visual results dashboard with bar charts, stacked 100% transportation comparisons, and relocation-reason ranking plots, enabling stakeholders to connect transportation barriers to relocation risk and prioritize interventions for older adults with limited mobility
 
 Research Experience
 ======
