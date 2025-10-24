@@ -74,7 +74,6 @@ _China Everbright Bank, Changchun Branch_ — Changchun, China (Sep 2019 - Nov 2
 
 
 **Data Analyst (STATCOM Project)**
-
 _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
 
 - Analyzed 464 survey responses focusing on transportation access and relocation intentions, supporting senior mobility planning; engineered a clean 6-variable dataset via Python by handling missingness (12%–40%), harmonizing categorical levels, and removing noise for downstream analysis
