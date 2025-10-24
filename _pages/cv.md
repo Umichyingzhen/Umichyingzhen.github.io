@@ -72,8 +72,10 @@ _China Everbright Bank, Changchun Branch_ — Changchun, China (Sep 2019 - Nov 2
 - Analyzed client transaction and portfolio data to identify risk profiles, recommended 3 customized wealth management products, which increased client product adoption by 15% and improved alignment with client investment needs  
 - Employed Python to fit generalized and linear regression models on 2,000+ customer records, which improved prediction accuracy of satisfaction and deposit trends by 12%, supporting data-driven decision-making in customer service strategies
 
+
 **Data Analyst (STATCOM Project)**
 _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
+
 - Analyzed 464 survey responses focusing on transportation access and relocation intentions, supporting senior mobility planning; engineered a clean 6-variable dataset via Python by handling missingness (12%–40%), harmonizing categorical levels, and removing noise for downstream analysis
 - Quantified transportation conditions by developing percentage distributions, missing-rate diagnostics, and grouped comparisons, revealing that 88% reported no driving difficulty, while respondents without vehicle access were 3–5 times more likely to face mobility barriers, identifying transportation-vulnerable subpopulations
 - Assessed relocation motivations and found 38% would move only for health reasons, while 45% cited eliminating outside maintenance as the top driver, uncovering core push-factors linked to aging-in-place decisions and environmental burden (e.g., house upkeep, accessibility)
