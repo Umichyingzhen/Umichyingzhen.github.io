@@ -71,7 +71,14 @@ _China Everbright Bank, Changchun Branch_ — Changchun, China (Sep 2019 - Nov 2
 - Collected and processed over 500 monthly economic indicators of Jilin Province and the whole country using SQL, automating data extraction, cleaning, and aggregation, which reduced manual processing time by 40% and enabled timely analysis of GDP drivers from fiscal and monetary policy perspectives
 - Analyzed client transaction and portfolio data to identify risk profiles, recommended 3 customized wealth management products, which increased client product adoption by 15% and improved alignment with client investment needs  
 - Employed Python to fit generalized and linear regression models on 2,000+ customer records, which improved prediction accuracy of satisfaction and deposit trends by 12%, supporting data-driven decision-making in customer service strategies
-  
+
+**Data Analyst (STATCOM Project)**
+_Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
+- Analyzed 464 survey responses on transportation and relocation intentions, producing actionable insights to support mobility-focused senior community planning
+- Cleaned and standardized raw data in Python, constructing a 6-variable analytical dataset and visualizing missingness, response distributions, and transportation patterns across subgroups
+- Identified that 88% reported no driving difficulty, but respondents without vehicle access were 3–5 times more likely to face transportation barriers; also found 45% cited “eliminating outside maintenance” as the top relocation driver, revealing key mobility and aging-in-place challenges.
+- Built bar-chart and stacked-percentage dashboards to deliver findings, pinpointing transportation-related risk factors linked to relocation decisions and informing stakeholder planning.
+
 Research Experience
 ======
 
