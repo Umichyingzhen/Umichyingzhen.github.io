@@ -52,8 +52,7 @@ Publications
 Work Expreience
 ======
 
-**Data Analyst (STATCOM Project)**
-_Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 2025)
+**Data Analyst**
 _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
 - Analyzed 464 survey responses focusing on transportation access and relocation intentions, supporting senior mobility planning; engineered a clean 6-variable dataset via Python by handling missingness (12%–40%), harmonizing categorical levels, and removing noise for downstream analysis
 - Quantified transportation conditions by developing percentage distributions, missing-rate diagnostics, and grouped comparisons, revealing that 88% reported no driving difficulty, while respondents without vehicle access were 3–5 times more likely to face mobility barriers, identifying transportation-vulnerable subpopulations
