@@ -62,10 +62,10 @@ _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
 **Graduate Research Assistant**  
 _Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 2025)
 
-- Conducted spatial transcriptomic analysis of normal vs. Alzheimer’s mouse brains using SPADE and Seurat; optimized Gaussian process–based spatial variance modeling and detected 13,085 SV genes with SPADE vs. 11,812 with Seurat (80.4% vs. 36.6%) after data filtering, log-normalization, and 250 × 250 µm spatial binning
-- Developed preprocessing pipeline integrating Seurat feature selection and spot-quality control (nFeature RNA, nCount RNA, percent.mt) to reduce 32 k × 3.5 k matrices to ~17 k × 660 while retaining biological signal, enabling efficient single-thread SPADE execution
-- Discovered AD-related genes (Tuba1c, Lhfp, Wbp1) exhibiting distinct spatial dysregulation—SPADE captured localized micro-regional upregulation, whereas Seurat revealed domain-wide transcriptional reorganization (expansion of Domains 4 & 7 in AD)
-- Built reproducible R & Python workflows on Great Lakes HPC using Slurm, integrating SPADE, Seurat, and BASS modules; achieved ~40% runtime reduction and established cross-validated pipelines for domain detection, differential testing, and visualization of conflict genes
+- Conducted large-scale spatial transcriptomic analysis of normal and Alzheimer’s disease mouse brains using SPADE and Seurat, comparing Gaussian process–based spatial variance modeling with cluster-based differential expression. Identified 13,085 significant SV genes via SPADE versus 11,812 via Seurat, demonstrating SPADE’s higher sensitivity (80.4% vs. 36.6%) to localized spatial heterogeneity
+- Designed and implemented a multi-stage preprocessing workflow integrating Seurat’s feature selection, log-normalization, and mitochondrial filtering with a custom 250 × 250 µm spatial binning algorithm, reducing data dimensionality from 32,285 × 3,500 to approximately 17000 × 660 while preserving spatial resolution and reducing SPADE runtime by approximately 40%
+- Characterized AD-associated spatial dysregulation at both spot and domain scales: SPADE detected confined micro-regional upregulation in genes such as Tuba1c and Wbp1, while Seurat identified domain-level changes including the expansion of Domains 4 and 7 and contraction of Domains 3 and 8, revealing transcriptional reorganization in AD pathology
+- Developed reproducible R and Python pipelines on the Great Lakes HPC cluster using Slurm-based modularization of SPADE, Seurat, and BASS components. Implemented automated likelihood-ratio testing, FDR control (BH method), and visualization of conflict genes, achieving scalable cross-validation across > 30000 genes and 7000 spots
 
 **Graduate Research Assistant**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Present)
