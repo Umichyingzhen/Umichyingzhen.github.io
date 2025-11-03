@@ -69,10 +69,10 @@ _Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 20
 
 **Graduate Research Assistant**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Present)
-- Designed and implemented elliptical slice sampling algorithms in R for Bayesian parameter estimation, improving computational efficiency in posterior inference by 36% compared to sampling function
-- Developed and validated a Multivariate Bayesian Shrinkage Prior (Mt-MBSP) model supporting mixed-type outcomes (continuous, binary, count) with Gibbs sampling  
-- Conducted extensive simulation studies comparing Bayesian CRD, Bayesian CRD with imputation, and OLS, evaluating predictive accuracy and convergence via Gelman-Rubin diagnostics
-- Applied Bayesian modeling frameworks to real and simulated datasets, generating reproducible analyses and visualizations that supported model validation and interpretation
+- Designed and implemented elliptical slice sampling algorithms in R for correlated Bayesian regression models, incorporating correlation-aware weight matrices and imputation for missing coefficients. Improved posterior mixing and inference efficiency by 36% compared to standard Metropolis–Hastings sampling through adaptive log-likelihood tuning and acceptance-rate diagnostics
+- Developed and validated a Multivariate Bayesian Shrinkage Prior (Mt-MBSP) framework supporting mixed-type outcomes (continuous, binary, count) using Gibbs sampling. Implemented hierarchical shrinkage priors, automatic variance scaling, and posterior predictive sampling to yield stable recovery of sparse β structures across high-dimensional regressors  
+- Conducted large-scale simulation studies (n = 50–100, p = 8–10) comparing Bayesian CRD, Bayesian CRD with imputation, and OLS, showing lower mean-squared error (1.12 vs. 1.16) and Gelman–Rubin PSRF ≈ 1.07 under both Spearman and Kendall discrepancies. Validated convergence across 1 000 MCMC iterations using diagnostic chains and trace-plot analyses
+- Applied Bayesian frameworks to real and simulated datasets, integrating ROC/PR curve evaluation (AUC = 0.93, AP = 0.91) and residual analysis for predictive validation. Generated reproducible visualizations including posterior density plots, beta-correlation heatmaps, and cumulative mean trajectories to support interpretation of model stability and parameter convergence
 
 **Data Analyst Intern**  
 _China Everbright Bank, Changchun Branch_ — Changchun, China (Sep 2019 - Nov 2019)
