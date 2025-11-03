@@ -54,10 +54,10 @@ Work Expreience
 
 **Data Analyst (STATCOM Project)**  
 _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
-- Analyzed 464 survey responses focusing on transportation access and relocation intentions, supporting senior mobility planning; engineered a clean 6-variable dataset via Python by handling missingness (12%–40%), harmonizing categorical levels, and removing noise for downstream analysis
-- Quantified transportation conditions by developing percentage distributions, missing-rate diagnostics, and grouped comparisons, revealing that 88% reported no driving difficulty, while respondents without vehicle access were 3–5 times more likely to face mobility barriers, identifying transportation-vulnerable subpopulations
-- Assessed relocation motivations and found 38% would move only for health reasons, while 45% cited eliminating outside maintenance as the top driver, uncovering core push-factors linked to aging-in-place decisions and environmental burden (e.g., house upkeep, accessibility)
-- Built a visual results dashboard with bar charts, stacked 100% transportation comparisons, and relocation-reason ranking plots, enabling stakeholders to connect transportation barriers to relocation risk and prioritize interventions for older adults with limited mobility
+- Analyzed 464 senior mobility and relocation surveys from Monroe County, engineering a clean 6-variable dataset in Python through missingness handling (12%–40%), variable harmonization, and categorical level alignment. Produced complete frequency and cross-tab analyses for transportation, health, and planning behaviors
+- Quantified transportation accessibility using cross-sectional diagnostics showing that 87.7% reported no driving difficulty, but respondents without vehicle access were twice as likely to face mobility barriers (≈53% moderate/major difficulty vs. 7% with vehicle access), revealing strong associations between transportation independence and quality of life
+- Assessed relocation readiness and motivations, finding that 31% plan to move only if health declines, 27% prefer to never relocate, and the top self-reported motivator was eliminating outdoor maintenance (26.9%), followed by downsizing and accessibility upgrades. Integrated qualitative text analysis identified loss of independence and physical decline as major aging concerns
+- Built visualization dashboards and summary reports combining percentage distributions, ranked relocation reasons, and cross-domain charts on transportation, planning, and senior engagement. Enabled Monroe County Senior Services to pinpoint high-risk subgroups and prioritize interventions improving mobility access, home maintenance support, and senior independence
 
 **Graduate Research Assistant**  
 _Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 2025)
