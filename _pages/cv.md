@@ -92,9 +92,10 @@ _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Nov 2
 
 **MLST: Statistical Regression Analysis R Package**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Oct 2024 - Nov 2024)
-- Independently developed a statistical analysis tool, integrating residual standard error, coefficient of determination `R²`, adjusted coefficient of determination `Adjusted R²`, `F-test`, `T-test`, and 5+ regression diagnostic functions, improving the efficiency of model evaluation for 100+ potential users
-- Validated various regression diagnostics and goodness-of-fit indices on simulated datasets of size `n=100`; results were highly consistent with built-in R functions, ensuring accuracy and reproducibility of the data analysis process 
-- Authored HTML vignette and Rd documentation to visually demonstrate model evaluation workflows, significantly reducing users’ learning costs and shortening onboarding time by approximately 50%
+- Designed and implemented the MLST R package to automate statistical evaluation of linear regression models, integrating five diagnostic modules—Residual Standard Error, R², Adjusted R², F-test, and T-test—for model accuracy assessment and performance interpretation across multiple predictors. Packaged functions were optimized for compatibility with matrix-based predictors and numeric responses
+- Programmed and tested core computational functions (RSE(), Rsquared(), ADJRS(), Ftest(), Ttest()), each returning structured numeric outputs (estimates, standard errors, F/t statistics, p-values, degrees of freedom) equivalent to results from R’s summary(lm()), while improving reproducibility and user transparency through simplified function syntax and modular code design 
+- Validated regression diagnostics and model-fit indices on simulated datasets (n = 100) by replicating canonical linear regression scenarios with varying numbers of predictors. Achieved 1:1 concordance with built-in R analytical routines and verified stability under Monte Carlo simulations, confirming numerical precision and algorithmic efficiency for teaching and applied research contexts
+- Authored a comprehensive documentation suite, including HTML vignettes and .Rd help pages, illustrating reproducible code workflows for regression analysis. Integrated GitHub installation (remotes::install_github("Umichyingzhen/MLST")) and vignette browsing (browseVignettes("MLST")), reducing onboarding time by ≈50% and enhancing accessibility for graduate students and applied analysts
 
 **Research on Predictive Algorithms for Cardiovascular Disease**  
 _Summer Research Seminar, Supervisor: R. Todd Ogden, Columbia University_ — Remote (May 2023 - July 2023)
