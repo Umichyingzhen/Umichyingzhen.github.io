@@ -85,9 +85,10 @@ Research Experience
 
 **Research on Pneumonia Patient Condition Classification Using Diffusion Models and CLIP**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Nov 2024 - Dec 2024)
-- Deployed the stable Diffusion model and utilized Low-Rank Adaptation of Large Language Models (LoRA) to fine-tune the model to make it generate customized chest X-ray images based on a dataset of 5,856 radiographs
-- Utilized the fine-tuned contrastive language-image pre-training (CLIP) model to achieve modest improvements in training accuracy, and the training accuracy improved from 48.94% to 50.51% 
-- Collaborated with fellow analysts to process and analyze the graphical data with effective communication
+- Deployed the Stable Diffusion v2 model integrating an 865 M-parameter U-Net with an OpenCLIP ViT-H/14 encoder to generate synthetic pediatric chest X-rays, addressing class imbalance in a dataset of 5,856 radiographs (1,349 normal / 1,345 viral / 2,538 bacterial). Applied noise-scheduling and forward–reverse diffusion processes to reconstruct high-fidelity 768 × 768 px images for under-represented classes
+- Fine-tuned the model using Low-Rank Adaptation (LoRA) on the attention and projection layers of U-Net, freezing pretrained weights while optimizing two low-rank matrices (LoRA_A and LoRA_B). This reduced trainable parameters to ≈ 1% and lowered GPU memory requirements by ≈ 3×, enabling efficient image generation on a single RTX 3090 (24 GB) without compromising quality 
+- Optimized and trained a multimodal CLIP ViT-L/14 model with LoRA-based projection fine-tuning using the combined real + synthetic dataset. Designed structured natural-language prompts (“An image of [Type] chest X-ray”) to improve image–text alignment. Achieved consistent training accuracy gains (48.94 → 50.47 %), F1-score increase (47.25 → 48.91 %), and recall improvement (48.65 → 50.56 %) across three epochs
+- Evaluated and interpreted model performance, showing that diffusion-based synthetic augmentation improved feature diversity and class representation, while CLIP’s cosine-similarity-based multimodal learning enhanced interpretability over CNN baselines. Proposed future improvements via consistency models (≈ 50× faster diffusion) and reinforcement fine-tuning (DPO/PPO) for robust radiographic classification under limited data settings
 
 **MLST: Statistical Regression Analysis R Package**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (Oct 2024 - Nov 2024)
