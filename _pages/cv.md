@@ -61,10 +61,11 @@ _Monroe County Senior Services_ — Ann Arbor, MI (Sep 2025 - Nov 2025)
 
 **Graduate Research Assistant**  
 _Medical School at University of Michigan_ — Ann Arbor, MI (May 2025 - July 2025)
-- Conducted spatial transcriptomic analysis on normal vs. Alzheimer’s mouse brains, identifying 13,085 spatially variable genes with SPADE (spatial pattern and differential expression) versus 11,812 with Seurat, showing 80.4% vs. 36.6% detection rates
-- Identified Alzheimer’s-associated genes (e.g., Tuba1c, Lhfp, Wbp1) showing localized dysregulation in AD mouse brains, with SPADE capturing confined upregulation patterns missed by domain-based clustering
-- Demonstrated complementary strengths: SPADE captured fine-scale localized differences (detecting 3,446 genes uniquely), while Seurat highlighted domain-level transcriptional changes with 2,173 unique detections  
-- Built reproducible workflows on Great Lakes HPC with R & Python, scaling to 30,000 × 3,000 expression matrices and reducing dimensionality by 40% for efficient Slurm-based execution
+
+- Conducted spatial transcriptomic analysis of normal vs. Alzheimer’s mouse brains using SPADE and Seurat; optimized Gaussian process–based spatial variance modeling and detected 13,085 SV genes with SPADE vs. 11,812 with Seurat (80.4% vs. 36.6%) after data filtering, log-normalization, and 250 × 250 µm spatial binning
+- Developed preprocessing pipeline integrating Seurat feature selection and spot-quality control (nFeature RNA, nCount RNA, percent.mt) to reduce 32 k × 3.5 k matrices to ~17 k × 660 while retaining biological signal, enabling efficient single-thread SPADE execution
+- Discovered AD-related genes (Tuba1c, Lhfp, Wbp1) exhibiting distinct spatial dysregulation—SPADE captured localized micro-regional upregulation, whereas Seurat revealed domain-wide transcriptional reorganization (expansion of Domains 4 & 7 in AD)
+- Built reproducible R & Python workflows on Great Lakes HPC using Slurm, integrating SPADE, Seurat, and BASS modules; achieved ~40% runtime reduction and established cross-validated pipelines for domain detection, differential testing, and visualization of conflict genes
 
 **Graduate Research Assistant**  
 _Department of Biostatistics at University of Michigan_ — Ann Arbor, MI (May 2025 - Present)
